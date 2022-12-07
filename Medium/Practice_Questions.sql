@@ -268,6 +268,7 @@ join patients on patients.patient_id=admissions.patient_id
 /*
 display the number of duplicate patients based on their first_name and last_name.
 */
+
 select
 	first_name,
     last_name,
